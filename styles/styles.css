@@ -511,15 +511,3 @@ button:focus {
   margin-top: 0;
   margin-bottom: 0;
 }
-
-.signature {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 2;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  background-color: blue;
-
-  margin-top: 0;
-  margin-bottom: 0;
-}
