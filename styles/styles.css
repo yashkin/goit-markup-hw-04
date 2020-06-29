@@ -201,13 +201,18 @@ body {
 
 .clients-item {
   fill: #afb1b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients a {
+  display: flex;
+  width: 170px;
+  height: 90px;
   border: 1px solid var(--border-color);
   stroke-width: 1px;
   border-radius: 4px;
-  width: 170px;
-  height: 90px;
-
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -417,6 +422,7 @@ footer,
 
 .address-nav .item {
   display: flex;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -534,6 +540,11 @@ footer,
   font-size: 16px;
   line-height: 1.7;
   text-align: center;
+}
+
+.works-button:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 /* .list-workbuton .item {
@@ -658,14 +669,11 @@ button:focus {
 
 .feature-text {
   font-weight: 400;
-  /* width: 270px;
-  height: 75px; */
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-text-color);
-
+  text-align: left;
   margin-top: 0;
-  /* margin-bottom: 90px; */
 }
 
 .address-text {
@@ -684,12 +692,17 @@ button:focus {
   --color2: var(--primary-text-color);
 }
 
+.icon-social:hover {
+  fill: #fff;
+}
+
 .social .social-link:hover,
 .social .social-link:focus {
   background-color: var(--accent-color);
 }
 
 .social-link {
+  fill: #afb1b8;
   display: inline-flex;
   align-items: center;
   justify-content: center;
