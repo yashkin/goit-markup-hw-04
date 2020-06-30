@@ -535,10 +535,14 @@ footer,
 }
 
 .works-button {
+  border-radius: 4px;
+  border-color: #f5f4fa;
+  padding: 6px 22px;
   font-weight: 500;
+  background: #f5f4fa;
   color: var(--title-text-color);
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.62;
   text-align: center;
 }
 
@@ -600,6 +604,7 @@ button:focus {
 }
 
 .feature-list .title {
+  text-align: left;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -692,13 +697,10 @@ button:focus {
   --color2: var(--primary-text-color);
 }
 
-.icon-social:hover {
-  fill: #fff;
-}
-
-.social .social-link:hover,
+.social-link:hover,
 .social .social-link:focus {
   background-color: var(--accent-color);
+  fill: #fff;
 }
 
 .social-link {
